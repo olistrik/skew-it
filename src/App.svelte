@@ -211,7 +211,7 @@ function calcError(a: number, b: number) {
 
 $: xytan = calcError($dimensions.a, $dimensions.b);
 $: xztan = calcError($dimensions.c, $dimensions.d);
-$: yztan = calcError($dimensions.e, $dimensions.f);
+$: yztan = calcError($dimensions.f, $dimensions.e);
 
 
 </script>
